@@ -1,19 +1,19 @@
 //=============『 Utama 』================== //
-global.owner = ['62895604670507'] 
-global.mods = ['62895604670507'] 
-global.prems = ['62895604670507'] 
+global.owner = ['6288804947282','62888049472823'] 
+global.mods = ['6288804947282','62888949472823'] 
+global.prems = ['6288804947282','6288804947282'] 
 
 //=============『 Info Owner 』============== //
 global.nameowner = '⫹⫺ Creator Bot ~'
-global.numberowner = '62895604670507'
+global.numberowner = '6288804947282'
 global.instagram = 'https://instagram.com/'
-global.github = 'https://github.com/RaaaGH'
-global.dana = '62895604670507'
-global.pulsa = '62895604670507'
-global.gopay = '62895604670507'
+global.github = 'https://github.com/OrochimaruBotz'
+global.dana = '6288804947282'
+global.pulsa = '6288804947282'
+global.gopay = '6288804947282'
 
 //=============『 Info Bot 』=================//
-global.namebot = 'Gatauu'
+global.namebot = 'HumanzBotzMD'
 global.gc = 'https://chat.whatsapp.com/'
 global.web = 'Bit.ly/ytClara' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
@@ -25,8 +25,8 @@ global.lolkey = 'rey2k22' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
 global.wm = '© Rimuru-MD'
 global.watermark = wm
-global.wm2 = '⫹⫺ Rimuru-MD'
-global.wm3 = '© Rimuru-MD'
+global.wm2 = '⫹⫺ HumanzBotz-MD'
+global.wm3 = '© HumanzBotz-MD'
 global.wm4 = 'Ⓛ = Limit Ⓟ = Premium'
 global.htki = '––––––『' 
 global.htka = '』––––––'
@@ -38,7 +38,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
 global.packname = 'Made with'
-global.author = 'Bot WhatsApp\nRimuru-MD'
+global.author = 'Bot WhatsApp\nHumanzBotz-MD'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
