@@ -5,6 +5,7 @@ global.prems = ['6288804947282', '62888049472823']
 
 //=============『 Info Owner 』============== //
 global.nameowner = '⫹⫺ Creator Bot ~'
+global.nameowner = '⫹⫺ Pengembang Bot~'
 global.numberowner = '6288804947282'
 global.instagram = 'https://instagram.com/'
 global.github = 'https://github.com/OrochimaruBotz'
@@ -23,7 +24,7 @@ global.fotonya1 = 'https://database.tioclkp02.repl.co/TextPro.me_162df9a5371cb2.
 global.fotonya2 = 'https://database.tioclkp02.repl.co/TextPro.me_162df9a5371cb2.jpg' //ini juga ganti 
 global.lolkey = 'rey2k22' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '© Rimuru-MD'
+global.wm = '© HumanzBotz-MD'
 global.watermark = wm
 global.wm2 = '⫹⫺ HumanzBotz-MD'
 global.wm3 = '© HumanzBotz-MD'
