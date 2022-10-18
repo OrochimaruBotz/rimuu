@@ -642,21 +642,39 @@ let moment = require('moment-timezone')
 //TAMPILAN DEPAN//
 const defaultMenu = {
   before:`
-╭─「 *${global.namebot}*」
-│ 👋🏻 Hai, %name!
-│
-│ 🎫 Limit : *%limit Limit*
-│ 🦸🏼‍♂️ Role : *%role*
-│ 💮 Level : *%level (%exp / %maxexp)*
-│ 💫 Total XP : %totalexp ✨
+┌────「 *${global.namebot}* 」
+├◇ Hai, %name!
+├◇ Tersisa %limit Limit
+├◇ Role %role
+├◇ Level %level (%exp / %maxexp)
+├◇ [%xp4levelup]
+├◇ %totalexp XP secara Total
 │ 
-│ 📅 Tanggal: *%week, %date*
-│ 🕰️ Waktu: *%time*
+├◇ Tanggal: %date
+├◇ Hari : %week %weton
+├◇ Tanggal Islam: %dateIslamic
+├◇ Waktu: %time
 │
-│ 📈 Uptime: *%uptime (%muptime)*
-│ 📊 Database: %rtotalreg of %totalreg
-╰────
-`.trimStart(), 
+├◇ Uptime: %uptime / (%muptime)
+├◇ Database: %rtotalreg dari %totalreg
+├◇ Memory Used : 
+├◇ ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+├◇ Version : %version
+├◇ Lib : Baileys-MD
+├◇ Mode : ${global.opts['self'] ? 'Self' : 'publik'}
+├◇ Upload Server : %uptime Ago 
+├◇ Deskripsi : ${'%npmdesc'} 
+└────       
+┌─「 *USER INFO* 」
+├◇ Pengguna :  %name 
+├◇ Status Ⓛ : %limit / day
+├◇ Status : User
+├◇ Money : %money
+├◇ Exp : %totalexp
+├◇ Level : %level
+├◇ Role : %role
+├◇ Premium : ${global.prem ? 'Ya' : 'Tidak'}
+└───────────`.trimStart(), 
   header: '╭─「 *%category* 」',
   body: '│ • %cmd %islimit %isPremium',
   footer: '╰────\n', 
@@ -901,7 +919,7 @@ const fdoc = {
 
 //BAGIAN MENU KETIKA USER COMMAND/
 if (teks == '404') {
-let menuu = `*© Rimuru-MD*\n> Runtime : ${uptime}\n> Tanggal : ${week} ${date}\n> Waktu : ${time}\n> Weton : ${weton}\n> Memory : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
+let menuu = `*© HumanzBotzMD*\n> Runtime : ${uptime}\n> Tanggal : ${week} ${date}\n> Waktu : ${time}\n> Weton : ${weton}\n> Memory : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,
