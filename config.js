@@ -1,13 +1,13 @@
 //=============『 Utama 』================== //
-global.owner = ['6288804947282', '62888049472823'] 
-global.mods = ['6288804947282', '62888949472823'] 
-global.prems = ['6288804947282', '62888049472823'] 
+global.owner = ['6288804947282', '62888049472828'] 
+global.mods = ['6288804947282', '62888949472828'] 
+global.prems = ['6288804947282', '62888049472828'] 
 
 //=============『 Info Owner 』============== //
 global.nameowner = '⫹⫺ Creator Bot ~'
 global.nameowner = '⫹⫺ Pengembang Bot~'
 global.numberowner = '6288804947282'
-global.numberowner = '62888049472823'
+global.numberowner = '62888049472828'
 global.instagram = 'https://instagram.com/'
 global.github = 'https://github.com/OrochimaruBotz'
 global.dana = '6288804947282'
